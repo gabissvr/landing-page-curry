@@ -1,0 +1,33 @@
+@media screen and (max-width: 760px){
+    body{
+        font-size: 12px;
+    }
+    main{
+        width: 95%;
+        margin:20px;
+    }
+    #img1{
+        width: 275px;
+    }
+}
+
+@media screen and (max-width:480px){
+    body{
+        font-size: 10px;
+    }
+    #marca{
+        width: 40vw;
+        font-size: 25px;
+    }
+    nav a{
+        margin:15px 10px;
+        font-size:12px;
+    }
+    main{
+        flex-direction: column;
+        width: 100%;
+    }
+    #img1{
+        width: 60vw;
+    }
+}
