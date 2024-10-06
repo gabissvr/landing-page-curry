@@ -21,7 +21,7 @@ header{
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     box-shadow: 1px 1px 5px #a764219e;
 }
@@ -45,7 +45,7 @@ nav{
 nav a{
     color: #FFF2E3;
     font-weight: 500;
-    margin: 30px 50px;
+    margin: 20px;
     padding: 10px;
     text-decoration: none;
     display: inline-block;
